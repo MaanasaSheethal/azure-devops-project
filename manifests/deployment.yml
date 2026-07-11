@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: reyazshaikazuredevopsproject 
+  name: maanasaazuredevopsproject 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: reyazshaikazuredevopsproject
+      app: maanasaazuredevopsproject
   template:
     metadata:
       labels:
-        app: reyazshaikazuredevopsproject 
+        app: maanasaazuredevopsproject 
     spec:
       containers:
-        - name: reyazshaikazuredevopsproject 
-          image: reyadevopsacr.azurecr.io/reyazshaikazuredevopsproject
+        - name: maanasaazuredevopsproject 
+          image: azuredevopsproject.azurecr.io/maanasaazuredevopsproject
           ports:
           - containerPort: 80
